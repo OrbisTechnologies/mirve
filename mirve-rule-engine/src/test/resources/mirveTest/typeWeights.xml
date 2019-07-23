@@ -1,0 +1,26 @@
+<fact-list>
+    <EntityTypeWeight>
+        <entityType>entity:person</entityType>
+        <weight>100</weight>
+    </EntityTypeWeight>
+    <EntityTypeWeight>
+        <entityType>entity:place</entityType>
+        <weight>90</weight>
+    </EntityTypeWeight>
+    <EntityTypeWeight>
+        <entityType>entity:organization</entityType>
+        <weight>80</weight>
+    </EntityTypeWeight>
+    <EntityTypeWeight>
+        <entityType>entity:artifact:equipment</entityType>
+        <weight>70</weight>
+    </EntityTypeWeight>
+    <EntityTypeWeight>
+        <entityType>entity:artifact:weapon:explosive:ied</entityType>
+        <weight>200</weight>
+    </EntityTypeWeight>    
+    <EntityTypeWeight>
+        <entityType>entity:vehicle</entityType>
+        <weight>60</weight>
+    </EntityTypeWeight>  
+</fact-list>

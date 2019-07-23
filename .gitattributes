@@ -1,0 +1,118 @@
+##########################################
+# Git 1.7.1 and earlier
+# Earlier versions of git do not understand the necessary directives in
+# the .gitattributes file, so autocrlf is the only way to assure compliance
+# with the LF normanlization. Thus:
+# * Unix and mac users should set autocrlf = input either globally or locally
+# * Windows users should set autocrlf = auto either globally or locally.
+#
+#####
+#####
+#
+# Git 1.7.2+
+# These versions of git heed the .gitattributes directive, so it is not strictly
+# necessary to set autocrlf.
+# Set default behaviour, in case users don't have core.autocrlf set.
+# Auto detect text files and perform LF normalization
+* text=auto
+
+#Java:
+*.[jJ][aA][vV][aA]		text diff=java
+*.[jJ][sS][pP]			text
+*.properties			text
+
+#C Sharp:
+*.[cC][sS]			text diff=csharp
+
+#C:
+*.[cC]				text diff=cpp
+*.[cC][pP][pP]			text diff=cpp
+*.[hH]				text
+Makefile			text
+
+#VB:
+*.[vV][bB]			text
+*.[vV][bB][sS]			text
+
+#Perl:
+*.[pP][lL]			text diff=perl
+
+#Python:
+*.[pP][yY]			text diff=python
+
+#Groovy:
+*.[gG][yY]			text
+*.[gG][rR][oO][oO][vV][yY]	text
+
+#Ruby:
+*.[rR][bB]			text diff=ruby
+
+#Shell Script:
+*.[sS][hH]			text
+*.[bB][aA][tT]			text
+
+#Java Script:
+*.[jJ][sS]			text
+*.[jJ][sS][oO][nN]		text
+
+#ASP:
+*.[aA][sS][pP]			text
+*.[aA][sS][pP][xX]		text
+
+#PHP:
+*.[pP][hH][pP]			text diff=php
+
+#HTML:
+*.[hH][tT][mM][lL]		text diff=html
+*.[hH][tT][mM]			text diff=html
+*.[xX][hH][tT][mM][lL]		text diff=html
+
+#StyleSheet:
+*.[cC][sS][sS]			text
+
+#XML:
+*.[xX][mM][lL]			text
+*.[dD][tT][dD]			text
+*.[xX][sS][dD]			text
+*.[xX][sS][lL]			text
+*.[xX][sS][lL][tT]		text
+*.[rR][dD][fF]			text
+*.[oO][wW][lL]			text
+*.[pP][oO][mM]			text
+
+#Turtle:
+*.[tT][tT][lL]			text
+
+#SPARQL:
+*.[rR][qQ]			text
+*.[sS][pP][aA][rR][qQ][lL]	text
+
+#SQL:
+*.[sS][qQ][lL]			text
+
+#Puppet:
+*.[pP][pP]			text
+
+#Misc:
+# *.dsp				text
+# *.dsw				text
+*.[cC][fF][gG]			text
+*.[cC][sS][vV]			text
+*.[tT][xX][tT]			text
+[rR][eE][aA][dD][mM][eE]	text
+
+##############
+##############
+
+#Image:
+*.[pP][nN][gG]			binary
+*.[jJ][pP][gG]			binary
+*.[jJ][pP][eE][gG]		binary
+*.[bB][mM][pP]			binary
+*.[gG][iI][fF]			binary
+*.[tT][iI][fF][fF]		binary
+
+#BPM:
+*.[bB][aA][rR]			binary
+
+###

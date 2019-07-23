@@ -1,0 +1,81 @@
+{
+	"entities": [
+		{
+			"id": 1,
+			"type": "Person:Criminal:DrugDealer",
+			"extractionEngine": "orbisnlp",
+			"confidenceScore": 0,
+			"text": "Dealer",
+			"adjudicatedConfidenceScore": 0,
+			"extractionAttributes": {
+			},
+			"itemOffset": {
+				"startOffset": 0,
+				"endOffset": 10
+			},
+			"normalizedText": "Dealer",
+			"adjudicated": false
+		},
+		{
+			"id": 2,
+			"type": "Person:Earthling:American:UnitedStatesian",
+			"extractionEngine": "notorbisnlp",
+			"confidenceScore": 0,
+			"text": "Dealer",
+			"adjudicatedConfidenceScore": 0,
+
+			"extractionAttributes": {
+			},
+			"itemOffset": {
+				"startOffset": 0,
+				"endOffset": 10
+			},
+			"normalizedText": "Dealer",
+			"adjudicated": false
+		},
+		{
+			"id": 3,
+			"type": "Person:Criminal",
+			"extractionEngine": "orbisnlp",
+			"confidenceScore": 0,
+			"text": "Junkie",
+			"adjudicatedConfidenceScore": 0,
+
+			"extractionAttributes": {
+			},
+			"itemOffset": {
+				"startOffset": 15,
+				"endOffset": 20
+			},
+			"normalizedText": "Junkie",
+			"adjudicated": false
+		}
+	],
+	"events": [
+		{
+			"id": 1,
+			"type": "Event:Transact:Sells",
+			"extractionEngine": "orbisnlp",
+			"confidenceScore": 0,
+			"text": "sells",
+			"adjudicatedConfidenceScore": 0,
+			"extractionAttributes": {
+				
+			},
+
+			"itemOffset": {
+				"startOffset": 0,
+				"endOffset": 20
+			},
+			"sourceEntity":	1,
+			"targetEntity":	3,
+			"triggerWord": "provided",
+			"triggerPredicateOffset": {
+				"startOffset": 11,
+				"endOffset": 14
+			},
+			"sentences": null,
+			"adjudicated": false
+		}
+	]
+}

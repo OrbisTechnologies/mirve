@@ -1,0 +1,79 @@
+<fact-list>
+	<!-- NETOWL -->
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>netowl</extractionEngine>
+        <entityType>entity:place</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>netowl</extractionEngine>
+        <entityType>entity:person</entityType>
+        <weight>10</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>netowl</extractionEngine>
+        <entityType>entity:organization</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>netowl</extractionEngine>
+        <entityType>entity:artifact:equipment</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>netowl</extractionEngine>
+        <entityType>entity:artifact:weapon:explosive:ied</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight>    
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>netowl</extractionEngine>
+        <entityType>entity:artifact:weapon</entityType>
+        <weight>10</weight>
+    </ExtractorEntityTypeWeight>   
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>netowl</extractionEngine>
+        <entityType>entity:vehicle</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight>  
+    
+	
+	<!-- orbisnlp -->
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>orbisnlp</extractionEngine>
+        <entityType>entity:place</entityType>
+        <weight>10</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>orbisnlp</extractionEngine>
+        <entityType>entity:person</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>orbisnlp</extractionEngine>
+        <entityType>entity:organization</entityType>
+        <weight>10</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>orbisnlp</extractionEngine>
+        <entityType>entity:artifact:equipment</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight>
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>orbisnlp</extractionEngine>
+        <entityType>entity:artifact:weapon</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight> 
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>orbisnlp</extractionEngine>
+        <entityType>entity:artifact:weapon:explosive:ied</entityType>
+        <weight>10</weight>
+    </ExtractorEntityTypeWeight>    
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>orbisnlp</extractionEngine>
+        <entityType>entity:vehicle</entityType>
+        <weight>0</weight>
+    </ExtractorEntityTypeWeight> 
+	
+	
+	
+</fact-list>

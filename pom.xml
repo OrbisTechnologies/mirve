@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<!--<parent>
+		<groupId>com.orbis.pom</groupId>
+		<artifactId>orbis-agp</artifactId>
+		<version>8.0</version>
+		<relativePath />
+	</parent> -->
+	
+	<groupId>com.orbis.mirve</groupId>
+	<artifactId>orbis-mirve</artifactId>
+	<name>Mirve Aggregator</name>
+	<version>2.1.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>project-parent-pom</module>
+		<module>mirve-idif</module>
+		<!-- <module>mirve-config</module> -->
+		<module>mirve-rule-engine</module>
+	</modules>
+
+
+	<scm>
+		<connection>scm:git:ssh://git.orbistechnologies.com/commons/mirve.git</connection>
+		<developerConnection>scm:git:ssh://git.orbistechnologies.com/commons/mirve.git</developerConnection>
+		<url>http://git.orbistechnologies.com/commons/mirve.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
+
+	<repositories>
+		<!--<repository>
+			<id>orbis-local-release</id>
+			<name>Release</name>
+			<url>http://nexus.orbistechnologies.com:8081/repository/ORBIS-LOCAL-RELEASE/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>orbis-local-snapshot</id>
+			<name>Snapshot</name>
+			<url>http://nexus.orbistechnologies.com:8081/repository/ORBIS-LOCAL-SNAPSHOT/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>orbis</id>
+			<name>Orbis development repository</name>
+			<url>http://nexus.orbistechnologies.com:8081/repository/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>orbis-old</id>
+			<name>Orbis development repository</name>
+			<url>http://artifactory.orbistechnologies.com/artifactory/repo</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository> -->
+	</repositories>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fact-list>
+
+	<!-- Weights without Extractor -->
+    <EntityTypeWeight>
+        <entityType>person</entityType>
+        <weight>10</weight>
+    </EntityTypeWeight>
+    <EntityTypeWeight>
+        <entityType>location</entityType>
+        <weight>9</weight>
+    </EntityTypeWeight>
+    <EntityTypeWeight>
+        <entityType>organization</entityType>
+        <weight>8</weight>
+    </EntityTypeWeight>
+
+	<!-- Weights with Extractor -->
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>extractorA</extractionEngine>
+        <entityType>location</entityType>
+        <weight>3</weight>
+    </ExtractorEntityTypeWeight>
+    
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>extractorB</extractionEngine>
+        <entityType>person</entityType>
+        <weight>5</weight>
+    </ExtractorEntityTypeWeight>
+    
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>extractorC</extractionEngine>
+        <entityType>organization</entityType>
+        <weight>9</weight>
+    </ExtractorEntityTypeWeight>
+    
+    <!-- Should ignore this -->
+    <RandomObject>
+        <field>value</field>
+    </RandomObject>
+    
+    
+    
+</fact-list>

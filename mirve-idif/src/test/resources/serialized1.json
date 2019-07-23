@@ -1,0 +1,87 @@
+{
+	"entities": [
+		{
+			"id": 1,
+			"type": "entity:place",
+			"extractionEngine": "orbisnlp",
+			"confidenceScore": 0,
+			"text": "China",
+			"adjudicatedConfidenceScore": 0,
+
+			"extractionAttributes": {
+
+				"sourceUri": "www.google.com"
+			},
+			"itemOffset": {
+				"startOffset": 0,
+				"endOffset": 10
+			},
+			"normalizedText": "China",
+			"adjudicated": false
+		},
+		{
+			"id": 2,
+			"type": "entity:place:country",
+			"extractionEngine": "netowl",
+			"confidenceScore": 0,
+			"text": "China",
+			"adjudicatedConfidenceScore": 0,
+
+			"extractionAttributes": {
+
+			},
+			"itemOffset": {
+				"startOffset": 0,
+				"endOffset": 10
+			},
+			"normalizedText": "China",
+			"adjudicated": false
+		},
+		{
+			"id": 3,
+			"type": "entity:place",
+			"extractionEngine": "geotagger",
+			"confidenceScore": 0,
+			"text": "China",
+			"adjudicatedConfidenceScore": 0,
+
+			"extractionAttributes": {
+				
+			},
+			"itemOffset": {
+				"startOffset": 0,
+				"endOffset": 10
+			},
+			"normalizedText": "China",
+			"adjudicated": false
+		}
+	],
+	"events": [
+		{
+			"id": 1,
+			"type": "Event:TransferOwnership",
+			"extractionEngine": "orbisnlp",
+			"confidenceScore": 0,
+			"text": "urges member states",
+			"adjudicatedConfidenceScore": 0,
+			"extractionAttributes": {
+				
+			},
+
+			"itemOffset": {
+				"startOffset": 0,
+				"endOffset": 10
+			},
+			"sourceEntity":	1,
+			"targetEntity":	2,
+			"triggerWord": "provided",
+			"triggerPredicateOffset": {
+				"startOffset": 3,
+				"endOffset": 5
+			},
+			"sentences": null,
+			"adjudicated": false
+		}
+	]
+}
+

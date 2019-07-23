@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fact-list>
+
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>extractorA</extractionEngine>
+        <entityType>person</entityType>
+        <weight>wrongValue</weight>
+    </ExtractorEntityTypeWeight>
+    
+    <ExtractorEntityTypeWeight>
+        <extractionEngine>extractorB</extractionEngine>
+        <entityType>organization</entityType>
+        <weight>10</weight>
+    </ExtractorEntityTypeWeight>
+    
+</fact-list>
